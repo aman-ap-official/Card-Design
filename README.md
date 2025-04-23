@@ -21,3 +21,7 @@ https://github.com/user-attachments/assets/84909807-ecc6-4efa-90e3-2f08a3407f86
 # Pause-on-Hover Carousel
 
 https://github.com/user-attachments/assets/b072fe21-6f52-4a75-a4f1-1bb94949abeb
+
+# 3D Flip Card
+
+https://github.com/user-attachments/assets/927282a9-37e6-43c4-a17c-af3eead0cb73
