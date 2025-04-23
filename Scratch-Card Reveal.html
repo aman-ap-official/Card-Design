@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Scratch-To-Reveal Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f2f5;
+      font-family: sans-serif;
+    }
+
+    /* Hidden checkbox toggle */
+    #scratch-toggle {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .scratch-card {
+      position: relative;
+      width: 320px;
+      height: 200px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    /* Much darker cover overlay */
+    .scratch-card .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9); /* almost opaque black */ 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: opacity 0.6s ease;
+      pointer-events: none;
+    }
+
+    /* On checked, fade the overlay away */
+    #scratch-toggle:checked + .scratch-card .overlay {
+      opacity: 0;
+    }
+
+    /* Underlying image */
+    .scratch-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Label to catch clicks */
+    .scratch-card label {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hidden checkbox -->
+  <input type="checkbox" id="scratch-toggle">
+
+  <div class="scratch-card">
+    <!-- Click area -->
+    <label for="scratch-toggle"></label>
+
+    <!-- Very dark overlay text -->
+    <div class="overlay">Scratch Me</div>
+
+    <!-- Image to reveal -->
+    <img src="/image/05.jpg" alt="Hidden Destination">
+  </div>
+
+</body>
+</html>
