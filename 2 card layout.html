@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Cards Layout</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f0f2f5;
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #ff7f50;
+    }
+
+    .btn {
+      text-decoration: none;
+      background: #ff7f50;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background: #ff4500;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="card-container">
+
+    <!-- First Row (3 Cards) -->
+    <div class="card-row">
+      <div class="card">
+        <img src="/image/02.jpg" alt="Destination">
+        <div class="card-content">
+          <h2>Bora Bora</h2>
+          <p>Tropical paradise with crystal clear waters and beautiful beaches.</p>
+          <div class="card-footer">
+            <span class="price">$899</span>
+            <a href="#" class="btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/image/04.jpg" alt="Destination">
+        <div class="card-content">
+          <h2>Swiss Alps</h2>
+          <p>Snow-covered peaks, skiing adventures, and cozy lodges await you.</p>
+          <div class="card-footer">
+            <span class="price">$1099</span>
+            <a href="#" class="btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/image/05.jpg" alt="Destination">
+        <div class="card-content">
+          <h2>Sahara</h2>
+          <p>Experience golden dunes, camel rides, and starry desert nights.</p>
+          <div class="card-footer">
+            <span class="price">$799</span>
+            <a href="#" class="btn">Book</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row (2 Cards) -->
+    <div class="card-row">
+      <div class="card">
+        <img src="/image/06.jpg" alt="Destination">
+        <div class="card-content">
+          <h2>New York</h2>
+          <p>The city that never sleeps — skyscrapers, Broadway, and culture galore.</p>
+          <div class="card-footer">
+            <span class="price">$999</span>
+            <a href="#" class="btn">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/07.jpg" alt="Destination">
+        <div class="card-content">
+          <h2>Amazon</h2>
+          <p>Explore the lush green rainforests and the incredible wildlife of the Amazon.</p>
+          <div class="card-footer">
+            <span class="price">$899</span>
+            <a href="#" class="btn">Book</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
