@@ -25,3 +25,7 @@ https://github.com/user-attachments/assets/b072fe21-6f52-4a75-a4f1-1bb94949abeb
 # 3D Flip Card
 
 https://github.com/user-attachments/assets/927282a9-37e6-43c4-a17c-af3eead0cb73
+
+# Scratch-Card Reveal 
+
+https://github.com/user-attachments/assets/8984e7c9-cac8-44c2-83eb-8c511ad31cad
