@@ -19,3 +19,5 @@ https://github.com/user-attachments/assets/437f2760-d4cf-4298-af9d-9527a432c14e
 https://github.com/user-attachments/assets/84909807-ecc6-4efa-90e3-2f08a3407f86
 
 # Pause-on-Hover Carousel
+
+https://github.com/user-attachments/assets/b072fe21-6f52-4a75-a4f1-1bb94949abeb
