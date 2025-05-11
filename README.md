@@ -16,7 +16,6 @@
 ### 🖼️ Image-Filled Card
 
 <a href="https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a.mp4">
-  <img src="https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a" alt="Image-Filled Card" width="100%" />
 </a>
 
 ---
@@ -32,7 +31,6 @@
 ### 🧾 Single Card Design
 
 <a href="https://github.com/user-attachments/assets/059d06d7-095b-4946-aa44-2bab9c86b923.mp4">
-  <img src="https://github.com/user-attachments/assets/059d06d7-095b-4946-aa44-2bab9c86b923" alt="Single Card" width="100%" />
 </a>
 
 ---
@@ -40,7 +38,6 @@
 ### 🧱 Two-Row Card Layout
 
 <a href="https://github.com/user-attachments/assets/437f2760-d4cf-4298-af9d-9527a432c14e.mp4">
-  <img src="https://github.com/user-attachments/assets/437f2760-d4cf-4298-af9d-9527a432c14e" alt="Two Row Card" width="100%" />
 </a>
 
 ---
@@ -56,7 +53,6 @@
 ### 🛑 Pause-on-Hover Carousel
 
 <a href="https://github.com/user-attachments/assets/b072fe21-6f52-4a75-a4f1-1bb94949abeb.mp4">
-  <img src="https://github.com/user-attachments/assets/b072fe21-6f52-4a75-a4f1-1bb94949abeb" alt="Pause-on-Hover Carousel" width="100%" />
 </a>
 
 ---
@@ -64,7 +60,6 @@
 ### 🌀 3D Flip Card
 
 <a href="https://github.com/user-attachments/assets/927282a9-37e6-43c4-a17c-af3eead0cb73.mp4">
-  <img src="https://github.com/user-attachments/assets/927282a9-37e6-43c4-a17c-af3eead0cb73" alt="3D Flip Card" width="100%" />
 </a>
 
 ---
@@ -72,7 +67,6 @@
 ### 🎯 Scratch Card Reveal
 
 <a href="https://github.com/user-attachments/assets/8984e7c9-cac8-44c2-83eb-8c511ad31cad.mp4">
-  <img src="https://github.com/user-attachments/assets/8984e7c9-cac8-44c2-83eb-8c511ad31cad" alt="Scratch Card Reveal" width="100%" />
 </a>
 
 ---
