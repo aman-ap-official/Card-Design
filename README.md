@@ -15,7 +15,7 @@
 
 ### 🖼️ Image-Filled Card
 
-<img src="[https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a" width="100%" alt="Image fills the card](https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a)" />
+<img src="[https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a" width="100%" alt="Image fills the card](https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a" />
 
 ---
 
